@@ -1,9 +1,11 @@
 body {
     min-width: 400px;
+    background-color: beige;
 }
 
 #icon {
     border-width: 0;
+    margin-right: 4px;
 }
 
 #message {
@@ -14,6 +16,13 @@ body {
 #button-area {
     display: flex;
     justify-content: space-between;
+}
+
+#button-area button {
+    font-size: 150%;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 #share {
