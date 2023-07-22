@@ -1,0 +1,33 @@
+body {
+    min-width: 400px;
+}
+
+#icon {
+    border-width: 0;
+}
+
+#message {
+    width: 100%;
+    min-height: 10em;
+}
+
+#button-area {
+    display: flex;
+    justify-content: space-between;
+}
+
+#share {
+    background-color: #86b300;
+    border-width: 0;
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+#close {
+    background-color: white;
+    border-width: 1px;
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+}
